@@ -4,5 +4,16 @@ EasyPyC is a simple build script designed for small C and C++ projects. It autom
 ## Setup
 To setup the project. First clone the repo:
 ```bash
-git clone 
+git clone git@github.com:alexandengstrom/easy-pyc.git
 ```
+Navigate to the project directory:
+```bash
+cd easy-pyc
+```
+Run the setup script:
+```bash
+bash setup.sh
+```
+
+## Usage
+After running the setup script, the command `epyc` can be used in the terminal to compile and run C and C++ projects.
